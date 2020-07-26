@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Todo Application</title>
+
+
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4">
+						<form>
+							<input type="text" id="todo-item" placeholder="Enter Todo">
+							<button onclick="addTodo()">Add Item</button>
+						</form>
+						<div>
+							<ul id="list">
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
